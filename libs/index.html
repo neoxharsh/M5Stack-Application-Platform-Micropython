@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M5Stack WiFi Config</title>
+</head>
+<style>
+body
+{
+  padding: 30px;
+  background-color: #fcfcfc;
+}
+.center-div
+{
+text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+  height: 210px;
+  background-color: #ddd;
+  border-radius: 3px;
+}
+.center-div p
+{
+
+}
+</style>
+<body>
+<div class="center-div">
+<h2 >WiFi Config</h2>
+<p >Select Access Point from Drop down list:</p>
+
+<form action="/submit" >
+SSID<br>
+  <select name="SSID" >
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br>Password<br>
+  <input name="Password" type="password">
+  <br><br>
+  <input type="submit">
+</form>
+
+</div>
+</body>
+</html>
